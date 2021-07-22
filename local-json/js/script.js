@@ -1,4 +1,4 @@
-var jsonDir = "./js/data.json";
+var jsonDir = "./data.json";
 
 fetch(jsonDir)
 .then(response => {
