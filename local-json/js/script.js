@@ -2,7 +2,7 @@ var jsonDir = "./js/data.json";
 
 fetch(jsonDir)
 .then(response => {
-  return reponse.json();
+  return response.json();
 })
 .then(data => {
   console.log(data);
